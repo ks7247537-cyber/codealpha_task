@@ -24,10 +24,7 @@ The design follows **separation of concerns**: domain models (`Stock`, `Portfoli
 | **Price lookup** | View all supported tickers and prices |
 | **Report export** | Save TXT and CSV reports to `reports/` |
 | **Input validation** | Symbols, quantities, and menu choices validated |
-| **Exception handling** | Graceful errors for invalid input and I/O failures |
-| **Clean CLI UI** | Colored banner, menus, separators, and confirmations |
-
----
+| **Exception handling** | Graceful errors for invalid input and I/O failures 
 
 ## Technologies Used
 
@@ -163,35 +160,3 @@ See [`samples/sample_output.txt`](samples/sample_output.txt) for full example ou
 - Delegates validation, UI, and report export
 - Implements the menu-driven CLI workflow
 
----
-
-## Reports
-
-Exported files are saved under `reports/` with timestamps:
-
-- `portfolio_report_YYYYMMDD_HHMMSS.txt` — Human-readable report
-- `portfolio_report_YYYYMMDD_HHMMSS.csv` — Spreadsheet-friendly data
-
----
-
-## Future Improvements
-
-- [ ] Persist portfolio data to JSON/SQLite database
-- [ ] Integrate live stock prices via API (e.g., Alpha Vantage, Yahoo Finance)
-- [ ] Historical performance charts (matplotlib/plotly)
-- [ ] Multiple named portfolios per user
-- [ ] Unit tests with `pytest`
-- [ ] Web UI with Flask or FastAPI
-- [ ] User authentication and encrypted storage
-- [ ] Dividend tracking and profit/loss vs. cost basis
-- [ ] Docker containerization for deployment
-
----
-
-## Author
-
-Built as a **CodeAlpha Python Programming Internship** submission.
-
-## License
-
-This project is provided for educational and internship purposes.
