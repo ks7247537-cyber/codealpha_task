@@ -1,0 +1,138 @@
+================================================================================
+                    BASIC CHATBOT - SAMPLE TERMINAL OUTPUT
+                         CodeAlpha Python Internship
+================================================================================
+
+$ python main.py
+
++======================================================+
+|          BASIC CHATBOT - CodeAlpha Project           |
+|         Rule-Based Intelligent Assistant             |
++======================================================+
+
+--- Session Setup ---
+Enter your name (or press Enter for 'Friend'): Anushree
+
+Hello, Anushree! Your session has started.
+Welcome! I'm your rule-based assistant.
+Type 'help' to see available commands or 'bye' to exit.
+Tip: Set your name with  my name is <YourName>
+
+Anushree: help
+
+Bot:
+--- Available Commands ---
+  hello / hi          - Greet the chatbot
+  how are you         - Ask how the bot is doing
+  time                - Get the current time
+  date                - Get today's date
+  help                - Show this help message
+  joke                - Hear a random joke
+  quote               - Get a motivational quote
+  calculator          - Perform basic math calculations
+  my name is <name>   - Set your display name
+  bye                 - End the session
+----------------------------
+
+
+Anushree: hi
+
+Bot: Hi there, Anushree! How can I assist you today?
+
+Anushree: how are you
+
+Bot: I'm doing great, Anushree! Ready to help you.
+
+Anushree: time
+
+Bot: The current time is 02:45:30 PM.
+
+Anushree: date
+
+Bot: Today's date is Sunday, May 31, 2026.
+
+Anushree: joke
+
+Bot: Here's a joke for you:
+  Why do programmers prefer dark mode? Because light attracts bugs!
+
+Anushree: quote
+
+Bot: Motivational Quote:
+  "Believe you can and you're halfway there. — Theodore Roosevelt"
+
+Anushree: calculator
+
+Bot: Calculator mode activated.
+Enter an expression (e.g., 25 + 17 * 2):
+
+Anushree: 25 + 17 * 2
+
+Bot: Result: 25 + 17 * 2 = 59
+Enter another expression or type 'back' to exit.
+
+Anushree: (100 - 25) / 5
+
+Bot: Result: (100 - 25) / 5 = 15.0
+Enter another expression or type 'back' to exit.
+
+Anushree: back
+
+Bot: Exited calculator mode. Type 'help' for other commands.
+
+Anushree: my name is Alex
+
+Bot: Nice to meet you, Alex! How can I help you?
+
+Alex: bye
+
+Bot: Goodbye, Alex! Have a wonderful day!
+
+==================================================
+           SESSION SUMMARY
+==================================================
+
+  User Name            : Alex
+  Total Messages       : 20
+  Session Duration     : 2m 15s
+  Chat History Saved   : chat_history.txt
+
+==================================================
+  Thank you for using Basic Chatbot!
+==================================================
+
+
+================================================================================
+                    GENERATED chat_history.txt (EXCERPT)
+================================================================================
+
+============================================================
+BASIC CHATBOT - SESSION SUMMARY
+============================================================
+User Name          : Alex
+Session Start      : 2026-05-31 14:43:15
+Session End        : 2026-05-31 14:45:30
+Session Duration   : 2m 15s
+Total Messages     : 20
+============================================================
+CONVERSATION LOG
+============================================================
+
+[2026-05-31 14:43:20] User (N/A)
+  help
+
+[2026-05-31 14:43:20] Bot (help)
+  --- Available Commands ---
+  ...
+
+[2026-05-31 14:43:25] User (N/A)
+  hi
+
+[2026-05-31 14:43:25] Bot (greeting)
+  Hi there, Alex! How can I assist you today?
+
+...
+
+============================================================
+End of Session
+============================================================

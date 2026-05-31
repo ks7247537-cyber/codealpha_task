@@ -1,0 +1,155 @@
+============================================================
+BASIC CHATBOT - SESSION SUMMARY
+============================================================
+User Name          : Anushree
+Session Start      : 2026-05-31 01:52:41
+Session End        : 2026-05-31 01:52:41
+Session Duration   : 0s
+Total Messages     : 18
+============================================================
+CONVERSATION LOG
+============================================================
+
+[2026-05-31 01:52:41] User (N/A)
+  hello
+
+[2026-05-31 01:52:41] Bot (greeting)
+  Hey Anushree! Great to see you. Type 'help' to see what I can do.
+
+[2026-05-31 01:52:41] User (N/A)
+  time
+
+[2026-05-31 01:52:41] Bot (time)
+  The current time is 01:52:41 AM.
+
+[2026-05-31 01:52:41] User (N/A)
+  date
+
+[2026-05-31 01:52:41] Bot (date)
+  Today's date is Sunday, May 31, 2026.
+
+[2026-05-31 01:52:41] User (N/A)
+  joke
+
+[2026-05-31 01:52:41] Bot (joke)
+  Here's a joke for you:
+  Why do programmers prefer dark mode? Because light attracts bugs!
+
+[2026-05-31 01:52:41] User (N/A)
+  quote
+
+[2026-05-31 01:52:41] Bot (quote)
+  Motivational Quote:
+  "Don't watch the clock; do what it does. Keep going. — Sam Levenson"
+
+[2026-05-31 01:52:41] User (N/A)
+  calculator
+
+[2026-05-31 01:52:41] Bot (calculator)
+  Calculator mode activated.
+Enter an expression (e.g., 25 + 17 * 2): 
+
+[2026-05-31 01:52:41] User (N/A)
+  10+5
+
+[2026-05-31 01:52:41] Bot (calculator)
+  Result: 10+5 = 15
+Enter another expression or type 'back' to exit.
+
+[2026-05-31 01:52:41] User (N/A)
+  back
+
+[2026-05-31 01:52:41] Bot (calculator_exit)
+  Exited calculator mode. Type 'help' for other commands.
+
+[2026-05-31 01:52:41] User (N/A)
+  bye
+
+[2026-05-31 01:52:41] Bot (farewell)
+  Goodbye, Anushree! Have a wonderful day!
+
+============================================================
+End of Session
+============================================================
+
+============================================================
+BASIC CHATBOT - SESSION SUMMARY
+============================================================
+User Name          : Adarsh
+Session Start      : 2026-05-31 01:55:47
+Session End        : 2026-05-31 01:57:36
+Session Duration   : 1m 49s
+Total Messages     : 16
+============================================================
+CONVERSATION LOG
+============================================================
+
+[2026-05-31 01:56:11] User (N/A)
+  help
+
+[2026-05-31 01:56:11] Bot (help)
+  
+--- Available Commands ---
+  hello / hi          - Greet the chatbot
+  how are you         - Ask how the bot is doing
+  time                - Get the current time
+  date                - Get today's date
+  help                - Show this help message
+  joke                - Hear a random joke
+  quote               - Get a motivational quote
+  calculator          - Perform basic math calculations
+  my name is <name>   - Set your display name
+  bye                 - End the session
+----------------------------
+
+
+[2026-05-31 01:56:23] User (N/A)
+  how are you
+
+[2026-05-31 01:56:23] Bot (how_are_you)
+  I'm functioning perfectly! How can I help you today?
+
+[2026-05-31 01:56:33] User (N/A)
+  joke
+
+[2026-05-31 01:56:33] Bot (joke)
+  Here's a joke for you:
+  Why did the Python programmer not respond? Because they were stuck in an infinite loop!
+
+[2026-05-31 01:56:56] User (N/A)
+  quote
+
+[2026-05-31 01:56:56] Bot (quote)
+  Motivational Quote:
+  "The future belongs to those who believe in the beauty of their dreams. — Eleanor Roosevelt"
+
+[2026-05-31 01:57:04] User (N/A)
+  calculator
+
+[2026-05-31 01:57:04] Bot (calculator)
+  Calculator mode activated.
+Enter an expression (e.g., 25 + 17 * 2): 
+
+[2026-05-31 01:57:20] User (N/A)
+  25*5+9
+
+[2026-05-31 01:57:20] Bot (calculator)
+  Result: 25*5+9 = 134
+Enter another expression or type 'back' to exit.
+
+[2026-05-31 01:57:32] User (N/A)
+  back
+
+[2026-05-31 01:57:32] Bot (calculator_exit)
+  Exited calculator mode. Type 'help' for other commands.
+
+[2026-05-31 01:57:36] User (N/A)
+  bye
+
+[2026-05-31 01:57:36] Bot (farewell)
+  See you later, Adarsh! It was nice chatting with you.
+
+============================================================
+End of Session
+============================================================
+
